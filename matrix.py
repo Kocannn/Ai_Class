@@ -6,7 +6,7 @@ a = np.random.randint(0, 10, (2, 3))
 
 b = np.random.randint(0, 10, (3,4))
 
-c = np.dot(a, b)
+c = np.matmul(a, b)
 
 print("matrix a adalah : \n", a)
 print("matrix b adalah : \n", b)
